@@ -3,7 +3,7 @@ Lucidchart for AWS observability in ML Workflows
 
 # 🔍 AWS MLOps Observability Platform
 
-![AWS Observability Platform](./assets/aws_obsiverse_ML_cropped.png)
+![AWS Observability Platform](./aws_obsiverse_ML.pdf)
 
 This diagram represents a **production-grade MLOps observability platform** built using AWS-native services and open-source tools. It’s designed to support **end-to-end transparency**, from experiment tracking all the way to live model monitoring, cost analysis, and alerting.
 
