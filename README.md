@@ -11,7 +11,7 @@ Whether you're running deep learning models in SageMaker or serving lightweight 
 
 ## Alternate View: Simplified Observability Platform Diagram
 
-![Simplified Observability Architecture](./aws_obsiverse_2.png)
+![Simplified Observability Architecture](./aws_obsiverse_2.pdf)
 
 This alternate version presents the same MLOps observability stack but with a **more streamlined layout**, focused on:
 
@@ -24,7 +24,7 @@ This alternate version presents the same MLOps observability stack but with a **
 
 ### Comparison: Detailed vs. Simplified View
 
-| Feature | `aws_obsiverse_ML_cropped.png` | `aws_obsiverse_2.png` |
+| Feature | `aws_obsiverse_ML_cropped.pdf` | `aws_obsiverse_2.pdf` |
 |--------|-------------------------------|------------------------|
 | **Visual Density** | High – full cloud infra view | Moderate – cleaner separation of concerns |
 | **Best For** | Interviews, system design deep dives | Presentations, stakeholder overviews |
