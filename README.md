@@ -9,6 +9,36 @@ This diagram represents a **production-grade MLOps observability platform** buil
 
 Whether you're running deep learning models in SageMaker or serving lightweight scikit-learn endpoints in ECS, observability **isn't optional**—it's what keeps your pipeline *accountable*, *right-sized*, and *resilient under load*.
 
+## 🧭 Alternate View: Simplified Observability Platform Diagram
+
+![Simplified Observability Architecture](./aws_obsiverse_2.png)
+
+This alternate version presents the same MLOps observability stack but with a **more streamlined layout**, focused on:
+
+- High-level process steps (e.g., *Submit Experiment*, *Train Model*, *Send Alerts*)
+- A cleaner top-down hierarchy that prioritizes **function over infrastructure**
+- Clear swimlanes for:  
+  `Experimentation → Training → Deployment → Monitoring → Alerting → Tracing → DevOps`
+
+---
+
+### Comparison: Detailed vs. Simplified View
+
+| Feature | `aws_obsiverse_ML_cropped.png` | `aws_obsiverse_2.png` |
+|--------|-------------------------------|------------------------|
+| **Visual Density** | High – full cloud infra view | Moderate – cleaner separation of concerns |
+| **Best For** | Interviews, system design deep dives | Presentations, stakeholder overviews |
+| **Tracing Clarity** | Explicit Lambda ↔ API Gateway ↔ SageMaker ↔ S3 path | More abstracted |
+| **CI/CD Integration** | Shows GitHub Actions → CodePipeline → CDK flow clearly | Lists tools without flow arrows |
+| **Alerting Path** | Clearly wired from Model Monitor → CloudWatch Alarms → SNS | Arrows implied but not as detailed |
+| **Stack Fidelity** | Shows real AWS deployment flows | Highlights functional areas more broadly |
+
+Both diagrams communicate the same MLOps principles, but from different altitudes. The first is like a *DevOps war map*—every service, every wire. The second is more of a *tactical blueprint*—clean lanes, easy to present, and easier to grasp if you're not deep in the weeds.
+
+Use them like tools in a toolbox—deploy the one that best fits your audience.
+
+
+
 ---
 
 ## 🧠 Why Observability Matters
