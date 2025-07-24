@@ -9,7 +9,7 @@ This diagram represents a **production-grade MLOps observability platform** buil
 
 Whether you're running deep learning models in SageMaker or serving lightweight scikit-learn endpoints in ECS, observability **isn't optional**—it's what keeps your pipeline *accountable*, *right-sized*, and *resilient under load*.
 
-## 🧭 Alternate View: Simplified Observability Platform Diagram
+## Alternate View: Simplified Observability Platform Diagram
 
 ![Simplified Observability Architecture](./aws_obsiverse_2.png)
 
@@ -35,13 +35,12 @@ This alternate version presents the same MLOps observability stack but with a **
 
 Both diagrams communicate the same MLOps principles, but from different altitudes. The first is like a *DevOps war map*—every service, every wire. The second is more of a *tactical blueprint*—clean lanes, easy to present, and easier to grasp if you're not deep in the weeds.
 
-Use them like tools in a toolbox—deploy the one that best fits your audience.
 
 
 
 ---
 
-## 🧠 Why Observability Matters
+## Why Observability Matters
 
 Let’s be real: deploying a model is just step one. Without tight observability:
 - You don't know if it’s drifting.
